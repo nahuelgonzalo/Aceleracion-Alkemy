@@ -1,0 +1,12 @@
+package com.alkemy.java.dto;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
+@NoArgsConstructor
+public class CategoryDTO extends CategoryRequestDTO{
+    private Long id;
+}
